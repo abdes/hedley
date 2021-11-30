@@ -9,7 +9,7 @@ There is an easy-to-read user guide and full API documentation.
 
 Hedley is C/C++ a header file designed to smooth over some
 platform-specific annoyances.  The idea is to get rid of a bunch of
-the #ifdefs in your code and put them in Hedley instead or, if you
+the \#ifdefs in your code and put them in Hedley instead or, if you
 haven't bothered with platform-specific functionality in your code, to
 make it easier to do so.  This code can be used to improve:
 
@@ -23,7 +23,7 @@ make it easier to do so.  This code can be used to improve:
      or too new for all the platforms they want to support.
  * C/C++ interoperability — make it easier to use code in both C and
    C++ compilers.
-* *… and more!*
+ * *… and more!*
 
 You can safely use Hedley in your *public* API.  If someone else
 includes a newer version of Hedley later on, the newer Hedley will
